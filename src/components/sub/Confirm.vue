@@ -11,7 +11,7 @@ export default {
   props: ['text'], // 父组件传给子组件的值
   data () {
     return {
-      msg: true
+      msg: '向父组件传的值'
     }
   },
   methods: {

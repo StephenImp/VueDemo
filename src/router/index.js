@@ -7,6 +7,8 @@ import ComputedCase from '@/components/case/ComputedCase'
 import SetterCase from '@/components/case/SetterCase'
 import WatchCase from '@/components/case/WatchCase'
 import CreatedAndMountedCase from '@/components/case/CreatedAndMountedCase'
+import DemoCase from '@/components/case/DemoCase'
+import InstructionCaseOne from '@/components/instructionCase/caseOne'
 
 Vue.use(Router)
 
@@ -42,6 +44,16 @@ export default new Router({
       path: '/createdAndMountedCase',
       name: 'CreatedAndMountedCase',
       component: CreatedAndMountedCase
+    },
+    {
+      path: '/demoCase',
+      name: 'demoCase',
+      component: DemoCase
+    },
+    {
+      path: '/instructionCase/caseOne',
+      name: 'instructionCaseOne',
+      component: InstructionCaseOne
     }
   ]
 })

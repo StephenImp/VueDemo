@@ -1,10 +1,11 @@
 day1:
     ①搭建vue实例,
-    router/index.js   设置路由
+    router/index.js   设置路由 就可以直接访问
 
     http://localhost:8080/#/first
 
 day2:
+
     ①子父组件引用（components）--- First.vue,Confirm.vue
         父组件给子组件的值通过props接收；子组件通过$emit向父组件传值
 
